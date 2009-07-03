@@ -1,0 +1,4 @@
+{
+	MainTemplateFile = "class.h";
+	Description = "An Objective-C protocol file, which includes the <Foundation/Foundation.h> header.";
+}

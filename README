@@ -36,3 +36,10 @@ readable, commented code. The code must have these characteristics:
   where to insert their code. 
 - All comments must be in the form of two slashes //, and none using the /* */ form. This
   will allow developers to comment out large blocks of code as needed.
+
+Wish List
+---------
+- Different people want different things in their template. For instance, someone may
+  want to include an implementation of observeValue:... for every class. Would be nice
+  to have a template generator application (yeah yeah, very meta) which would make
+  templates customized to the developer.
