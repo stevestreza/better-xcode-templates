@@ -1,0 +1,17 @@
+About
+-----
+The templates that ship with Xcode are not the greatest. Some of them are inconsistent and don't enforce good coding standards (e.g. missing a dealloc method). Other templates which would be useful just flat out don't exist (e.g. an NSOperation subclass, or a protocol header file). This project aims to supplement or replace the built-in templates for Xcode to speed up coding and improve the quality of code.
+
+Coding Standard
+---------------
+All files will be processed by Xcode. The generated source files must produce consistent, readable, commented code. The code must have these characteristics:
+
+- Each file must have a comment block at the top describing the file.
+- Each class must implement its superclass' designated initializer and dealloc.
+- Stub methods must be organized by their purpose, class or protocol.
+-- Each group must be organized by their class hierarchy, with protocol stubs following.
+-- Each group must be prefaced by a pragma mark naming the class or protocol the methods were implementing.
+-- Clusters of methods (such as relating to KVO) should be organized along the lines above, with a pragma mark.
+- All method implementations should contain a method call to their super implementation if needed.
+- All method implementations should contain a commented out stub line that will signify where to insert their code. 
+- All comments must be in the form of two slashes //, and none using the /* */ form. This will allow developers to comment out large blocks of code as needed.
