@@ -14,6 +14,7 @@
     if(self = [super init]){
         //STUB initialize your object here
     }
+    return self;
 }
 
 -(void)dealloc{
