@@ -291,7 +291,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Mac_Prefix.pch;
-				INFOPLIST_FILE = Info_Mac.plist;
+				INFOPLIST_FILE = Resources/Info_Mac.plist;
 				INSTALL_PATH = "$(HOME)/Library/Frameworks";
 				PRODUCT_NAME = "«PROJECTNAME»";
 				WRAPPER_EXTENSION = framework;
