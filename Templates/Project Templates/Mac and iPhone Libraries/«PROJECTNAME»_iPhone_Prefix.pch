@@ -1,0 +1,7 @@
+//
+// Prefix header for all iPhone source files of the '«PROJECTNAME»' target in the '«PROJECTNAME»' project.
+//
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#endif
