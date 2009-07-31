@@ -1,0 +1,11 @@
+{
+	FilesToRename = {
+		"CocoaFramework_Prefix.pch" = "ÇPROJECTNAMEÈ_Prefix.pch";
+	};
+	FilesToMacroExpand = (
+		"Info.plist",
+		"English.lproj/InfoPlist.strings",
+		"ÇPROJECTNAMEÈ_Prefix.pch",
+	);
+	Description = "This project builds a framework that links against the Cocoa framework.";
+}

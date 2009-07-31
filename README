@@ -9,12 +9,14 @@ for Xcode to speed up coding and improve the quality of code.
 Install
 -------
 From your terminal:
-1. mkdir -p ~/Library/Application\ Support/Developer/Shared/Xcode/File\ Templates
+1. mkdir -p ~/Library/Application\ Support/Developer/Shared/Xcode/{Project,File}\ Templates
 2. git clone git://github.com/amazingsyco/better-xcode-templates.git
-3. ln -s $PWD/better-xcode-templates/Templates 
+3. ln -s $PWD/better-xcode-templates/Templates/File\ Templates
    ~/Library/Application\ Support/Developer/Shared/Xcode/File\ Templates/Better\ Xcode\ Templates
+4. ln -s $PWD/better-xcode-templates/Templates/Project\ Templates
+   ~/Library/Application\ Support/Developer/Shared/Xcode/Project\ Templates/Better\ Xcode\ Templates
 
-Note: Do NOT simply git clone the templates into the File Templates folder, as Xcode will
+Note: Do NOT simply git clone the templates into the template folders, as Xcode will
 pick up all the cruft from the .git folder.
 
 Coding Standard
