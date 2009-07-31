@@ -49,8 +49,8 @@
 		1EF6B8C21022840600EB0C3C /* lib«PROJECTNAME».a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "lib«PROJECTNAME».a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EF6BABD1022857600EB0C3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1EF6BB591022892200EB0C3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1EF6BC8E10229F6600EB0C3C /* «PROJECTNAME»_iPhone_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "«PROJECTNAME»_iPhone_Prefix.pch"; sourceTree = "<group>"; };
-		32DBCF5E0370ADEE00C91783 /* «PROJECTNAME»_Mac_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "«PROJECTNAME»_Mac_Prefix.pch"; sourceTree = "<group>"; };
+		1EF6BC8E10229F6600EB0C3C /* iPhone_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iPhone_Prefix.pch"; sourceTree = "<group>"; };
+		32DBCF5E0370ADEE00C91783 /* Mac_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Mac_Prefix.pch"; sourceTree = "<group>"; };
 		8DC2EF5A0486A6940098B216 /* Info_Mac.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_Mac.plist; sourceTree = "<group>"; };
 		8DC2EF5B0486A6940098B216 /* «PROJECTNAME».framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "«PROJECTNAME».framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -142,8 +142,8 @@
 		32C88DFF0371C24200C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				32DBCF5E0370ADEE00C91783 /* «PROJECTNAME»_Mac_Prefix.pch */,
-				1EF6BC8E10229F6600EB0C3C /* «PROJECTNAME»_iPhone_Prefix.pch */,
+				32DBCF5E0370ADEE00C91783 /* Mac_Prefix.pch */,
+				1EF6BC8E10229F6600EB0C3C /* iPhone_Prefix.pch */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -290,7 +290,7 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "«PROJECTNAME»_Mac_Prefix.pch";
+				GCC_PREFIX_HEADER = "Mac_Prefix.pch";
 				INFOPLIST_FILE = Info_Mac.plist;
 				INSTALL_PATH = "$(HOME)/Library/Frameworks";
 				PRODUCT_NAME = "«PROJECTNAME»";
@@ -351,7 +351,7 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREFIX_HEADER = "«PROJECTNAME»_iPhone_Prefix.pch";
+				GCC_PREFIX_HEADER = "iPhone_Prefix.pch";
 				PREBINDING = NO;
 				PRODUCT_NAME = "«PROJECTNAME»";
 				SDKROOT = iphonesimulator3.0;
